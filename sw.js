@@ -1,5 +1,5 @@
 // Service worker mínimo: red primero, caché como respaldo (funciona offline en el gym).
-const CACHE = 'mi-rutina-v10';
+const CACHE = 'mi-rutina-v11';
 const ASSETS = ['./', './index.html', './manifest.json', './icon.svg', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', e => {
